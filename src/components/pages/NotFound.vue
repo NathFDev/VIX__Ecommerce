@@ -22,6 +22,10 @@
 		height: 100%;
 		background-color: $color-white;
 		overflow: hidden;
+		background-image: url("../../assets/sad-sleepy-emoticon-face-square-svgrepo-com.svg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 65%;
 	}
 
 	div {
