@@ -19,7 +19,7 @@
 	const isLoading = ref(true);
 
 	const data = ref(null);
-	const res = await fetch(`https://fakestoreapi.com/products/1`);
+	const res = await fetch("https://fakestoreapi.com/products/1");
 	data.value = await res.json();
 	isLoading.value = false;
 
